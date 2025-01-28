@@ -1,0 +1,20 @@
+1.	git init - Initializes a new Git repository in the current directory. It creates a .git directory where Git will store all the metadata and version history for the project.
+Syntax : git init
+
+2.	git clone - Creates a copy of a remote repository on your local machine. This command clones the entire history of the repository.
+Syntax : git clone <repository-url>
+
+3.	git add -  Stages changes in a file (or files) for the next commit. This tells Git to track the changes you've made and include them in your next commit.
+Syntax : git add .    or    git add <filename.txt>
+
+4.	git commit - Records changes in the repository with a message describing what was changed.
+Syntax : git  commit -m “What changes”
+
+5.	git push - Pushes your committed changes to a remote repository. This updates the remote with your local changes.
+Syntax : git push origin main
+
+6.	git pull - Fetches and integrates changes from a remote repository into your local repository.
+Syntax : git pull origin main
+
+7.	git checkout - Switches to a different branch in your repository.
+Syntax : git checkout <branch-name>
